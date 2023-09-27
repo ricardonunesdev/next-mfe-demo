@@ -1,12 +1,10 @@
-import dynamic from 'next/dynamic';
-
-const Header = dynamic(() => import('content/Header'), { ssr: false });
+import ProxyHeader from '@/components/ProxyHeader';
 
 function Home() {
 	return (
 		<>
 			<main>
-				<Header />
+				<ProxyHeader logo_msg='message from shell' />
 				Shell
 			</main>
 		</>

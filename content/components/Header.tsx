@@ -1,9 +1,9 @@
 import React from 'react';
 import Menu from './Menu';
-import Logo from './Logo';
+import Logo, { LogoProps } from './Logo';
 import User from './User';
 
-function Header() {
+function Header({ logo_msg }: LogoProps) {
 	return (
 		<header>
 			<div
@@ -20,7 +20,7 @@ function Header() {
 				}}
 			>
 				<Menu />
-				<Logo />
+				<Logo logo_msg={logo_msg} />
 				<User />
 			</div>
 		</header>

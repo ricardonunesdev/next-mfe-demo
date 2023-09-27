@@ -4,7 +4,7 @@ export default function Home() {
 	return (
 		<>
 			<main>
-				<Header />
+				<Header logo_msg='message from content' />
 				Content
 			</main>
 		</>

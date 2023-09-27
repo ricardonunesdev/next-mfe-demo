@@ -1,8 +1,12 @@
 import React from 'react';
 
-function Logo() {
+export interface LogoProps {
+	logo_msg: string;
+}
+
+function Logo({ logo_msg }: LogoProps) {
 	function handleClick() {
-		alert('You clicked the logo');
+		alert(logo_msg);
 	}
 
 	return <div onClick={handleClick}>Logo</div>;
