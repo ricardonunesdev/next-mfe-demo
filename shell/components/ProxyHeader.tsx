@@ -7,10 +7,8 @@ interface HeaderProps {
 	logo_msg: string;
 }
 
-function ProxyHeader(props: HeaderProps) {
-  return (
-	<Header {...props} />
-  )
+function ProxyHeader({ logo_msg }: HeaderProps) {
+	return <Header logo_msg={logo_msg} />;
 }
 
-export default ProxyHeader
+export default ProxyHeader;
