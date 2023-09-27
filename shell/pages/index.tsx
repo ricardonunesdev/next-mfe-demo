@@ -1,5 +1,3 @@
-// shell/pages/index.tsx
-
 import dynamic from 'next/dynamic';
 
 const Header = dynamic(() => import('content/Header'), { ssr: false });
