@@ -1,4 +1,4 @@
-import ProxyHeader from '@/components/ProxyHeader';
+import ProxyHeader from '@/federated/ProxyHeader';
 
 function Home() {
 	return (
