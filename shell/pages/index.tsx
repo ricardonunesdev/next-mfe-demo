@@ -4,7 +4,7 @@ function Home() {
 	return (
 		<>
 			<main>
-				<ProxyHeader logo_msg='message from shell' />
+				<ProxyHeader header_msg='message from shell' />
 				Shell
 			</main>
 		</>
